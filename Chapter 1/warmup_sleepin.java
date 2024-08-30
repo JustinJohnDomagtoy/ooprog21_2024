@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Warmup {
+public class warmup_sleepln {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);  
 
