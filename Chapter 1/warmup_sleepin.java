@@ -5,9 +5,7 @@ public class Main {
         System.out.println(obj.sleepIn(false, false));  
         System.out.println(obj.sleepIn(true, false));   
         System.out.println(obj.sleepIn(false, true));   
+    
+}
     }
 
-    public boolean sleepIn(boolean weekday, boolean vacation) {
-        return !weekday || vacation;
-    }
-}
