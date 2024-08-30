@@ -1,23 +1,22 @@
 import java.util.Scanner;
 
-public class Main {
+public class Warmup {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);  // Create a Scanner object for user input
+        Scanner scanner = new Scanner(System.in);  
 
-        // Prompt the user for input
+       
         System.out.print("Is it a weekday? (true/false): ");
         String weekdayInput = scanner.nextLine();
-        boolean weekday = Boolean.parseBoolean(weekdayInput); // Parse input as boolean
+        boolean weekday = Boolean.parseBoolean(weekdayInput); 
 
         System.out.print("Are you on vacation? (true/false): ");
         String vacationInput = scanner.nextLine();
-        boolean vacation = Boolean.parseBoolean(vacationInput); // Parse input as boolean
+        boolean vacation = Boolean.parseBoolean(vacationInput); 
 
-        // Call the sleepIn method and print the result
         Main obj = new Main();
         System.out.println("Can sleep in: " + obj.sleepIn(weekday, vacation));
 
-        scanner.close();  // Close the scanner to prevent resource leak
+        scanner.close(); 
     }
 
     public boolean sleepIn(boolean weekday, boolean vacation) {
