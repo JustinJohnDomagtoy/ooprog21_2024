@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class SammysRentalPrice {
     public static void main(String[] args) {
-        // Display the company motto with decorative border
+   
         System.out.println("SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS");
         System.out.println("S Sammy's makes it fun in the sun. S");
         System.out.println("SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS");
