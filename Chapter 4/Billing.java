@@ -16,8 +16,8 @@ public class Billing {
     }
 
     public static void main(String[] args) {
-        System.out.printf("The total price for the bill is: $%.15f%n", computeBill(23.2));
-        System.out.printf("The total price for the bill is: $%.15f%n", computeBill(23.2, 2));
-        System.out.printf("The total price for the bill is: $%.15f%n", computeBill(23.2, 3, 10));
+        System.out.printf("The total price for the bill is: $%.11f%n", computeBill(23.2));
+        System.out.printf("The total price for the bill is: $%.11f%n", computeBill(24.4, 2));
+        System.out.printf("The total price for the bill is: $%.3f%n", computeBill(41.23, 2, 14));
     }
 }
