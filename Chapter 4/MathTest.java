@@ -4,8 +4,8 @@ public class MathTest {
         double num = 37.0;
         double sinValue = -1.5708; 
         double cosValue = 1.5708;  
-        int num1 = 68;
-        int num2 = 71;
+        int num1 = 71;
+        int num2 = 68;
 
        
         System.out.println("SQRT: " + Math.sqrt(num));             
