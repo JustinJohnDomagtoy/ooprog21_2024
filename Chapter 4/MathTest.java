@@ -1,4 +1,5 @@
- public static void main(String[] args) {
+public class MathTest {
+    public static void main(String[] args) {
      
         double sqrtValue = 37.0; 
         double sinOutput = -0.9997558399011495; 
