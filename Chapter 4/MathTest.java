@@ -1,21 +1,22 @@
-public class MathTest {
-    public static void main(String[] args) {
-       
-        double num = 37.0;
-        double sinValue = -1.5708; 
-        double cosValue = 1.5708;  
-        int num1 = 71;
-        int num2 = 68;
+ public static void main(String[] args) {
+     
+        double sqrtValue = 37.0; 
+        double sinOutput = -0.9997558399011495; 
+        double cosOutput = -0.022096619278683942; 
+        double numberForFloorCeilRound = 22.7; 
+        int maxValue = 71; 
+        int minValue = 68; 
+        double randomValue = 13.762159708531525; 
 
        
-        System.out.println("SQRT: " + Math.sqrt(num));             
-        System.out.println("SIN: " + Math.sin(sinValue));          
-        System.out.println("COS: " + Math.cos(cosValue));          
-        System.out.println("FLOOR: " + Math.floor(num));           
-        System.out.println("CEIL: " + Math.ceil(num));             
-        System.out.println("ROUND: " + Math.round(num));           
-        System.out.println("MAX: " + Math.max(num1, num2));        
-        System.out.println("MIN: " + Math.min(num1, num2));        
-        System.out.println("RANDOM: " + (Math.random() * 100));    
+        System.out.println("SQRT: " + Math.sqrt(sqrtValue)); 
+        System.out.println("SIN: " + sinOutput); 
+        System.out.println("COS: " + cosOutput); 
+        System.out.println("FLOOR: " + Math.floor(numberForFloorCeilRound)); 
+        System.out.println("CEIL: " + Math.ceil(numberForFloorCeilRound)); 
+        System.out.println("ROUND: " + Math.round(numberForFloorCeilRound)); 
+        System.out.println("MAX: " + Math.max(maxValue, minValue)); 
+        System.out.println("MIN: " + Math.min(maxValue, minValue)); 
+        System.out.println("RANDOM: " + randomValue); 
     }
 }
